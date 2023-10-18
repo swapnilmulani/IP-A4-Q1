@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d6cb9;
+  /* Matte blue background color */
+  margin: 0;
+  padding: 0;
+  color: #000;
+  /* Black text color */
+}
+
+/* Form Styles */
+table {
+  background: linear-gradient(pink, 50%, rgb(182, 171, 72));
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(blue, 10%, rgb(175, 72, 89));
+}
+
+h2 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #9e6868);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="Number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Submit and Reset Button Styles */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #000;
+  /* Black background color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #333;
+  /* Slightly darker black on hover */
+}
+
+/* Hint Text Styles */
+.hint {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Styling for the "Colors" select element */
+#colors {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
